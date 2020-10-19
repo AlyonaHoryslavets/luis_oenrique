@@ -1,0 +1,39 @@
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+@import "https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,700;1,400&family=Lato:wght@300;400&family=Montserrat&display=swap";
+@font-face {
+  font-family: 'Nirmala UI';
+  src: url("../fonts/NirmalaUI.eot");
+  src: url("../fonts/NirmalaUI.eot?#iefix") format("embedded-opentype"), url("../fonts/NirmalaUI.woff2") format("woff2"), url("../fonts/NirmalaUI.woff") format("woff"), url("../fonts/NirmalaUI.ttf") format("truetype"), url("../fonts/NirmalaUI.svg#NirmalaUI") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Asap', sans-serif;
+  color: #4d4d4d; }
+  body .menu.container {
+    margin-bottom: 205px; }
+    body .menu.container .navbar {
+      padding-top: 30px;
+      background-color: transparent !important; }
+    body .menu.container .nav-item {
+      margin-right: 30px; }
+      body .menu.container .nav-item:last-of-type {
+        margin-right: 0; }
+    body .menu.container .nav-link {
+      padding: 0;
+      border-bottom: solid 2px transparent; }
+      body .menu.container .nav-link:hover {
+        border-bottom: solid 2px #878787; }
+  body .heading.container h1 {
+    font: 500 90px/90px; }
+
+/*# sourceMappingURL=style.css.map */
